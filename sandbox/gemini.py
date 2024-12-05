@@ -3,7 +3,9 @@
 import google.generativeai as genai
 import os
 
-api_key = ""
+api_key = "AIzaSyDeHDQhmIBxl9h4CwCa7ChF5iurUOrkF68"
+
+api_key = os.environ["GOOGLE_API_KEY"]
 
 prompt = """
 Traduis "J'ai un chien" en anglais. La réponse ne doit contenir que la traduction
